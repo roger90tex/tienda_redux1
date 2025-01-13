@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start --public-url /subcarpeta/",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,11 +40,17 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/react-hooks": "^8.0.1",
     "browserify-zlib": "^0.2.0",
     "https-browserify": "^1.0.0",
+    "jest": "^27.5.1",
+    "redux-mock-store": "^1.5.5",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
     "url": "^0.11.4",
     "util": "^0.12.5"
   }
 }
+
